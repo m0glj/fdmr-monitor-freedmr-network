@@ -28,7 +28,7 @@ __verion__ = '1.0.0'
 __copyright__ = 'Copyright (c) 2022 Christian Quiroz, OA4DOA'
 __license__ = 'GNU GPLv3'
 __maintainer & modified__ = 'Adrian Craig, M0GLJ'
-__email__ = 'adm@dmr-peru.pe'
+__email__ = 'admin@oz-dmr.network'
 
 logger = logging.getLogger("fdmr-mon")
 
