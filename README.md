@@ -2,8 +2,7 @@
 
 ![Dashboard](./screenshot.png)
 
-***This version has been forked from FDMR Monitor by OA4DOA.***
-
+**FDMR Monitor (Modifications & Customisation) by M0GLJ**
 
 ## Changes to the Dashboard
 
@@ -11,7 +10,7 @@
 - Customise for FreeDMR Network
 - Added Greek Language
     
-**FDMR Monitor (Modifications & Customisation) by M0GLJ**
+**This version has been forked from FDMR Monitor by OA4DOA.**
 
 *** 2023/07/29 ***
 - Added new flags.
