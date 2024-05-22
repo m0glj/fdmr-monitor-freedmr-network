@@ -26,6 +26,7 @@ from pathlib import Path
 __author__ = 'Christian Quiroz, OA4DOA'
 __verion__ = '1.0.0'
 __copyright__ = 'Copyright (c) 2022 Christian Quiroz, OA4DOA'
+__copyright__ = 'Copyright (c) 2024 Adrian Craig, M0GLJ'
 __license__ = 'GNU GPLv3'
 __maintainer & modified__ = 'Adrian Craig, M0GLJ'
 __email__ = 'admin@oz-dmr.network'
