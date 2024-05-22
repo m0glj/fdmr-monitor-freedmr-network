@@ -80,14 +80,14 @@ def mk_config(cfg_file):
                 if not _path.endswith("/"):
                     _path = conf[section]["FILES_PATH"] = f"{_path}/"
                 CONF["FILES"] = {
-                    "PATH": conf.get(section, "FILES_PATH"),
-                    "SUBS": conf.get(section, "SUBSCRIBER_FILE"),
-                    "PEER": conf.get(section, "PEER_FILE"),
-                    "TGID": conf.get(section, "TGID_FILE"),
+                    "PATH": conf.get(section, "FILES_PATH", fallback="./data/"),
+                    "SUBS": conf.get(section, "SUBSCRIBER_FILE", fallback="local_subscriber_ids.csv"),
+                    "PEER": conf.get(section, "PEER_FILE", fallback="rptrs.json"),
+                    "TGID": conf.get(section, "TGID_FILE", fallback="talkgroup_ids.json"),
                     "LCL_SUBS": conf.get(section, "LOCAL_SUB_FILE"),
                     "LCL_PEER": conf.get(section, "LOCAL_PEER_FILE"),
                     "LCL_TGID": conf.get(section, "LOCAL_TGID_FILE"),
-                    "RELOAD_TIME": conf.getint(section, "RELOAD_TIME") * 864000,
+                    "RELOAD_TIME": conf.getint(section, "RELOAD_TIME", fallback=7) * 864000,
                     "PEER_URL": conf.get(section, "PEER_URL"),
                     "SUBS_URL": conf.get(section, "SUBSCRIBER_URL"),
                     "TGID_URL": conf.get(section, "TGID_URL")
