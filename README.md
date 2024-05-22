@@ -7,7 +7,7 @@
 ## Changes to the Dashboard
 
 *** 2024/05/22 ***
-- Customise for FreeDMR Network
+- Customise for FreeDMR Network Peer Servers
 - Added Greek Language
     
 **This version has been forked from FDMR Monitor by OA4DOA.**
