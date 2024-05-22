@@ -7,10 +7,11 @@
 
 ## Changes to the Dashboard
 
-*** 2023/07/29 ***
+*** 2024/05/22 ***
 - Customise for FreeDMR Network
-  
-**FDMR Monitor by M0GLJ**
+- Added Greek Language
+    
+**FDMR Monitor (Modifications & Customisation) by M0GLJ**
 
 *** 2023/07/29 ***
 - Added new flags.
