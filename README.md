@@ -8,7 +8,7 @@
 
 *** 2024/05/22 ***
 - Customise for FreeDMR Network Peer Servers
-- Added Greek Language
+- Added Greek Language - Thanks to Spyros SV8GTH
     
 **This version has been forked from FDMR Monitor by OA4DOA.**
 
