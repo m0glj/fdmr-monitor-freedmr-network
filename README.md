@@ -1,4 +1,4 @@
-**Dashboard for FreeDMR Servers**
+**Dashboard for FreeDMR Network Peer Servers**
 
 ![Dashboard](./screenshot.png)
 
