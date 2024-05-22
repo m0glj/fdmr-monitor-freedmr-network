@@ -4,7 +4,7 @@
             $footer1Value = $config['DASHBOARD']['FOOTER1'];
             echo $footer1Value . ' | ';
         }
-        ?>Copyright © 2016-2023 | The Regents of the <a target="_blank" href=http://k0usy.mystrikingly.com>K0USY Group</a> ® All rights reserved. | Version OA4DOA 2022 with CS8ABG Dash | Copyright © 2024 Modified by <a href="https://www.oz-dmr.network" target="_blank">OZ-DMR NETWORK</a> | Running on the <a href="https://www.freedmr.uk/" target="_blank">FreeDMR Network</a>
+        ?>Copyright © 2016-2023 | The Regents of the K0USY Group ® All rights reserved. | Version OA4DOA 2022 with CS8ABG Dash | Copyright © 2024 Modified by <a href="https://www.oz-dmr.network/" target="_blank">OZ-DMR NETWORK</a> for Running on the <a href="https://www.freedmr.uk/" target="_blank">FreeDMR Network</a>
         <?php
         if (isset($config['DASHBOARD']['FOOTER2']) && !empty($config['DASHBOARD']['FOOTER2'])) {
             $footer2Value = $config['DASHBOARD']['FOOTER2'];
