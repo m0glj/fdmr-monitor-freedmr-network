@@ -8,6 +8,9 @@
 ## Changes to the Dashboard
 
 *** 2023/07/29 ***
+- Customise for FreeDMR Network
+  
+*** 2023/07/29 ***
 - Added new flags.
 - Introduced a new stanza called `DASHBOARD` in the configuration file(fdmr-mon.cfg).
 - Users can now customize the dashboard settings using the `DASHBOARD` stanza.
@@ -101,26 +104,17 @@ php 7.x running on the server.
     sudo python3 mon_db.py
     sudo systemctl start fdmr_mon
 
-
----
-
 **FDMR Monitor by OA4DOA**
 
-FDMR Monitor for FreeDMR Servera based on HBMonv2 https://github.com/yuvelq/FDMR-Monitor 
-
----
+- FDMR Monitor for FreeDMR Servera based on HBMonv2 https://github.com/yuvelq/FDMR-Monitor 
 
 **HBMonv2 by SP2ONG**
 
-HBMonitor v2 for DMR Server based on HBlink/FreeDMR https://github.com/sp2ong/HBMonv2 
-
----
+- HBMonitor v2 for DMR Server based on HBlink/FreeDMR https://github.com/sp2ong/HBMonv2 
 
 **hbmonitor3 by KC1AWV**
 
-Python 3 implementation of N0MJS HBmonitor for HBlink https://github.com/kc1awv/hbmonitor3 
-
----
+- Python 3 implementation of N0MJS HBmonitor for HBlink https://github.com/kc1awv/hbmonitor3 
 
 Copyright (C) 2013-2018  Cortney T. Buffington, N0MJS <n0mjs@me.com>
 
