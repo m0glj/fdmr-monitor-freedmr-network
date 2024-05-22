@@ -10,6 +10,8 @@
 *** 2023/07/29 ***
 - Customise for FreeDMR Network
   
+**FDMR Monitor by M0GLJ**
+
 *** 2023/07/29 ***
 - Added new flags.
 - Introduced a new stanza called `DASHBOARD` in the configuration file(fdmr-mon.cfg).
@@ -48,7 +50,7 @@ This version of FDMR Monitor requires a web server like apache2, lighttpd and
 php 7.x running on the server.
 
     cd /opt
-    sudo git clone https://github.com/CS8ABG/FDMR-Monitor.git
+    sudo git clone https://github.com/m0glj/fdmr-monitor-freedmr-network.git
     cd FDMR-Monitor
     sudo chmod +x install.sh
     sudo ./install.sh
@@ -64,8 +66,8 @@ php 7.x running on the server.
     - This example will work for Apache server:
       sudo cp /opt/FDMR-Monitor/html/* /var/www/html/ -r
 
-    With this configuration you server will be available at:
-      http://yourserverhost.org/
+    With this configuration your server will be available at:
+      http://freedmr.network/
 
     Now you can configure the theme color and name for your Dashboard from the config.cfg file also
     you can define the height of the Server Activity 
