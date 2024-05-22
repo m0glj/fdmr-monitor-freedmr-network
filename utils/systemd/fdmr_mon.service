@@ -1,0 +1,17 @@
+[Unit]
+Description=FDMR Monitor
+# To make the network-online.target available
+# systemctl enable systemd-networkd-wait-online.service
+
+After=network-online.target syslog.target
+Wants=network-online.target
+
+[Service]
+StandardOutput=null
+WorkingDirectory=/opt/FDMR-Monitor
+ExecStart=python3 /opt/FDMR-Monitor/monitor.py
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
